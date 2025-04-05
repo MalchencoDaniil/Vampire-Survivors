@@ -4,5 +4,6 @@ namespace Runtime
     {
         public static string bootstrap = "Bootstrap";
         public static string menu = "Menu";
+        public static string game = "Game";
     }
 }
