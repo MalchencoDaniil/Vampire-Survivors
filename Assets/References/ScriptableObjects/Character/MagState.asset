@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 477856d1a8c214d42bfc8ee75f01e2bf, type: 3}
   m_Name: MagState
   m_EditorClassIdentifier: 
-  characterState: 0
+  characterState: 1
+  _price: 12

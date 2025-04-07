@@ -40,6 +40,11 @@ namespace Runtime.UI.CharacterSelection
 
         public override void UnLocked()
         {
+            if (CoinResource._instance._amount < _itemState._price)
+                return;
+
+            CoinResource._instance.Remove(_itemState._price);
+
             _itemState.characterState = CharacterItemState.CharacterState.Purchased;
             _itemButton.interactable = true;
 

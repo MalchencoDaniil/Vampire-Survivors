@@ -11,6 +11,8 @@ public class CharacterItemState : ScriptableObject
 
     public CharacterState characterState;
 
+    public int _price;
+
     private void Awake()
     {
         characterState = (CharacterState)PlayerPrefs.GetInt(PrefsNames.characterBuyState);

@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: KnightState
   m_EditorClassIdentifier: 
   characterState: 0
+  _price: 0
